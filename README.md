@@ -3,6 +3,7 @@
 > iView3 转换示例项目已转移至独立仓库：https://github.com/gogocodeio/ViewUI/tree/vue3
 
 东半球全网最简单易上手，也许可读性最强的 AST 处理工具！
+简易上手！
 
 官网：https://gogocode.io
 
@@ -147,7 +148,7 @@ $(code)
 获取根节点，对于 js 来说是`type`为'File'的节点，对于 html 来说是`nodeType`为'document'的节点
 通常对 AST 进行操作之后需要获取 root 元素之后再输出
 
-### .siblings()
+### .siblings() //废弃
 
 获取所有兄弟节点
 
